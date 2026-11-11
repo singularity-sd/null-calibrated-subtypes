@@ -1,0 +1,66 @@
+{
+ "protocol": {
+  "N": 300,
+  "P": 8,
+  "LOAD": 0.6,
+  "R": 40,
+  "KS": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "B": 25,
+  "NREF": 10
+ },
+ "rates": {
+  "null: one factor": {
+   "k-means + silhouette > 0.25": 0.025,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.175
+  },
+  "null: skewed tests": {
+   "k-means + silhouette > 0.25": 0.55,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 1.0,
+   "consensus + correlated null": 0.15
+  },
+  "null: ceiling effect": {
+   "k-means + silhouette > 0.25": 0.45,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 1.0,
+   "consensus + correlated null": 0.3
+  },
+  "2 subtypes, d = 1.0": {
+   "k-means + silhouette > 0.25": 0.0,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.3
+  },
+  "2 subtypes, d = 1.5": {
+   "k-means + silhouette > 0.25": 0.025,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.425
+  },
+  "2 subtypes, d = 2.0": {
+   "k-means + silhouette > 0.25": 0.05,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.75
+  },
+  "3 subtypes, d = 1.5": {
+   "k-means + silhouette > 0.25": 0.0,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.675
+  },
+  "3 subtypes, d = 2.0": {
+   "k-means + silhouette > 0.25": 0.2,
+   "latent profiles (diagonal), BIC": 1.0,
+   "Gaussian mixture (full), BIC": 0.0,
+   "consensus + correlated null": 0.95
+  }
+ }
+}

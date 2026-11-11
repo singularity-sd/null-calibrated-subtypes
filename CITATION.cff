@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Are cognitive subtypes real? Null-calibrated consensus clustering for test batteries: a simulation study"
+authors:
+  - name: "Singularity"
+year: 2026
+url: "https://github.com/singularity-sd/null-calibrated-subtypes"
+license: MIT
